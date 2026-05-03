@@ -1,0 +1,51 @@
+{
+  "onboarding": {
+    "slide1_title": "Safe & Reliable\nYour Way",
+    "slide1_desc": "Travel with peace of mind. Our drivers are verified and your safety is our top priority.",
+    "slide2_title": "Easy Booking\nin Seconds",
+    "slide2_desc": "Set your destination and find a ride in no time. No more waiting on the street.",
+    "slide3_title": "Smart Pricing\nBest Rates",
+    "slide3_desc": "Get transparent pricing before you book. No hidden fees, just fair fares.",
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Start Journey"
+  },
+  "login": {
+    "welcome": "Welcome Back",
+    "subtitle": "Login to your account to start your journey",
+    "phone_label": "Phone Number",
+    "phone_placeholder": "Enter phone number",
+    "password_label": "Password",
+    "password_placeholder": "Enter password",
+    "forgot": "Forgot?",
+    "login_btn": "Login",
+    "or_continue": "OR CONTINUE WITH",
+    "google": "Google",
+    "apple": "Apple",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign Up"
+  },
+  "signup": {
+    "title": "Create Account",
+    "subtitle": "Join the Return Taxi community",
+    "role_customer": "Customer",
+    "role_driver": "Driver",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "username": "Username",
+    "address": "Address",
+    "id_no": "ID No",
+    "phone": "Phone Number",
+    "password": "Password",
+    "btn": "Sign Up",
+    "already_account": "Already have an account?",
+    "login": "Login",
+    "vehicle_no": "Vehicle Number",
+    "vehicle_type": "Vehicle Type",
+    "brand": "Vehicle Brand",
+    "driving_license": "Driving License",
+    "vehicle_photos": "Vehicle Photos",
+    "upload_photo": "Upload Photo",
+    "select_type": "Select Vehicle Type"
+  }
+}

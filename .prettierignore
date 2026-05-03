@@ -1,0 +1,10 @@
+# Ignore artifacts:
+node_modules
+dist
+build
+.expo
+package-lock.json
+
+# Ignore generated files:
+return-taxi-001.apk
+google-services.json

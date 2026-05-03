@@ -2,16 +2,76 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
     "paths": {
       "@/*": [
-        "./*"
+        "./src/*"
+      ],
+      "@env": [
+        "./src/core/env.js"
+      ],
+      // "@@": ["./*"],
+      "@assets/*": [
+        "assets/*"
+      ],
+      
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@enums/*": [
+        "src/enums/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@localization/*": [
+        "src/localization/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@views/*": [
+        "src/views/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@theme/*": [
+        "src/theme/*"
+      ],
+      "@app-types/*": [
+        "src/types/*"
       ]
-    }
+
+    },
+    "esModuleInterop": true,
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true
   },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "docs",
+    "cli",
+    "android",
+    "ios",
+    "lint-staged.config.js",
+    "eslint.config.js"
+  ],
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "assets/**/*",
+    "src/**/*",
+    "env.d.ts"
   ]
 }

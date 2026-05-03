@@ -1,7 +1,8 @@
 {
+  "eslint.experimental.useFlatConfig": true,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
-    "source.sortMembers": "explicit"
-  }
+    "source.fixAll.eslint": "explicit"
+  },
+  "java.compile.nullAnalysis.mode": "automatic"
 }
